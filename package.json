@@ -1,0 +1,30 @@
+{
+    "name": "middy-ts-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "sam local start-api"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/schmalzs/middy-ts-demo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/schmalzs/middy-ts-demo/issues"
+    },
+    "homepage": "https://github.com/schmalzs/middy-ts-demo#readme",
+    "dependencies": {
+      "@middy/core": "^4.6.2"
+    },
+    "devDependencies": {
+      "@tsconfig/node18": "^18.2.1",
+      "@types/aws-lambda": "^8.10.120",
+      "@types/node": "^20.6.0",
+      "typescript": "^5.2.2"
+    }
+  }
+  
